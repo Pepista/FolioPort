@@ -1,0 +1,494 @@
+html, body, header, footer, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(229, 229, 229);
+    background-size: cover;
+    background-position: center;
+}
+
+.h2 {
+    position: absolute;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #0d650a;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p:first-child {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+p:last-child {
+    font-weight: bold;
+}
+
+.ppp {
+    text-align: center;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #ffdd57;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.hero {
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #0d650a;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+.about {
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2rem;
+    color: #0d650a;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d650a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.9s;
+
+}
+
+.about .btn:hover {
+    background-color: #ffdd57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.9s;
+}
+
+.news {
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news h2 {
+    font-size: 2rem;
+    color: #0d650a;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.news ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.news ul li a {
+    color: #0d650a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.news ul li a:hover {
+    color: #ffdd57;
+    text-decoration: underline;
+}
+
+.news .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d650a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.9s;
+}
+
+.news .btn:hover {
+    background-color: #ffdd57;
+    color: #0d650a;
+}
+
+.updates-container {
+    margin: 20px;
+}
+
+.update-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.update-item h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.update-date {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.update-item p {
+    line-height: 1.5;
+}
+
+.update-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.update-item a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+
+.all-news {
+    text-align: center;
+    margin-top: 20px;
+}
+.all-updates-link {
+    text-align: center;
+}
+
+.all-updates-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0d650a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.9s;
+}
+
+.all-updates-link a:hover {
+    background-color: #ffdd57;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.9s;
+
+}
+
+.footer {
+    background: linear-gradient(to bottom, #0d650a, #053604);
+    color: #000000;
+    padding: 0px 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    border-top: 5px solid #ffdd57;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #ffdd57;
+}
+
+.footer-section p, .footer-section ul, .footer-section form {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffdd57;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social ul li {
+    list-style: none;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.footer-newsletter input[type="email"]::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.footer-newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffdd57;
+    color: #310956;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-newsletter button:hover {
+    background-color: #fff;
+    color: #310956;
+}
+
+.footer-bottom {
+    background-color: #074406;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom p {
+
+    color: white;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+    header .container, .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .footer-content {
+        text-align: center;
+    }
+
+    .footer-left, .footer-right {
+        flex: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero, .about, .news {
+        padding: 10px;
+    }
+
+    .footer-left h3, .footer-left p {
+        font-size: 0.8rem;
+    }
+
+    .footer-right ul li {
+        margin: 5px 0;
+    }
+}
+
+.posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.post-item:hover {
+    transform: translateY(-5px);
+}
+
+.post-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.post-date {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.post-item p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+@media (max-width: 800px) {
+    .posts-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .posts-container {
+        grid-template-columns: 1fr;
+    }
+}

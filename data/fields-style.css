@@ -1,0 +1,43 @@
+.fields-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.field-item {
+    flex: 1 1 calc(25% - 20px);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.field-item:nth-child(1) {
+    background-color: #ff4d4d;
+}
+
+.field-item:nth-child(2) {
+    background-color: #4da6ff;
+}
+
+.field-item:nth-child(3) {
+    background-color: #4dff4d;
+}
+
+.field-item:nth-child(4) {
+    background-color: #ffff4d;
+}
+
+.field-item:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
+video {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    display: block;
+}
